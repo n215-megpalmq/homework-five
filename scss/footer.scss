@@ -1,0 +1,135 @@
+footer{
+    .end{
+        background-color: #79ADDC;
+        height: 100px;
+        display: flex;
+
+    .logo{
+        width: 92px;
+        height:42px;
+        border:2px solid white;
+        position: relative;
+        top: 29px;
+            h4{
+            margin-top: 23px;
+            font-family: gillL;
+            letter-spacing: 3px;
+            color: white;
+            }
+        }
+            .copywright{
+            color: white;
+            font-family: gilli;
+            font-size: 12px;
+            position: absolute;
+            left:850px;
+            margin-top: 43px;
+            width: 250px;
+            
+            }
+    .icons {
+        font-size: 20px;
+        position:relative;
+        right: 0;
+        display: flex;
+        left: 150px;
+        height: 30px;
+        justify-content: space-evenly;
+    
+
+            .fb{
+                height: 22.46px;
+                width: 22.46px;
+                margin-left: 750px;
+                border: none;
+                margin-top: 47px;
+                color: white;
+            }
+            .In{
+                margin-left: 10px;
+                height: 22.46px;
+                width: 22.46px;
+                margin-top: 47px;
+                border: none;
+                color: white;
+                
+            }
+            .Tw{
+                margin-left: 10px;
+                height: 22.46px;
+                width: 22.46px;
+                margin-top: 47px;
+                border: none;
+                color: white;
+                
+            }
+        }
+    }
+}
+
+
+
+
+@media all and (max-width: 920px) {
+    footer {
+        max-width: 100%;
+        .end {
+            .logo {
+                margin-left: 20px; 
+            }
+
+            .copywright {
+                position:absolute;
+                left: 270px;
+                
+            }
+
+            .icons {
+                .fb {
+                    margin-left: 500px; 
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+}
+
+@media all and (max-width: 720px) {
+    footer {
+    max-width: 100%;
+        .end {
+            .logo {
+                margin-left: 50px; 
+            }
+
+            .copywright {
+                margin-right:50px;
+                width:200px;
+                margin-bottom: 10px;
+                
+            }
+
+            .icons {
+                display: flex;
+                .fb {
+                margin-left: 400px; 
+                }
+                .Tw{
+                     
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+}
