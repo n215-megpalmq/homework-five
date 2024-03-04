@@ -609,7 +609,6 @@ footer .end .logo {
   width: 92px;
   height: 42px;
   border: 2px solid white;
-  margin-left: 400px;
   position: relative;
   top: 29px;
 }
@@ -695,6 +694,122 @@ footer .end .icons .Tw {
   footer .end .icons .fb {
     margin-left: 400px;
   }
+}
+.navb {
+  color: #000000;
+}
+
+.about {
+  height: 900px;
+  width: 980px;
+  background-color: plum;
+  margin: 0 auto;
+}
+.about .top-box {
+  margin-top: 41px;
+  flex-direction: column;
+}
+.about .top-box .title1 {
+  font-family: sole;
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.about .top-box .line {
+  width: 171px;
+  height: 1px;
+  background-color: black;
+}
+.about .top-box .text1 {
+  font-family: gilli;
+  font-weight: bold;
+  margin-top: 38px;
+}
+.about .bottom-box {
+  background-color: mediumaquamarine;
+  margin-top: 95px;
+}
+.about .bottom-box .title2 {
+  font-family: sole;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 5px;
+}
+.about .bottom-box .line2 {
+  width: 300px;
+  height: 1px;
+  background-color: black;
+}
+.about .clients {
+  width: 100%;
+  height: 700px;
+  background-color: green;
+}
+.about .clients .miranda {
+  width: 722px;
+  height: 150px;
+  background-color: navajowhite;
+  margin-top: 36.5px;
+  display: flex;
+}
+.about .clients .miranda .image1 {
+  background-image: url(../images/woman.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .clients .miranda .quote1 {
+  width: 385px;
+  height: 102px;
+  font-family: gillI;
+  font-weight: bold;
+  font-style: italic;
+}
+.about .clients .miranda .quote1 .MB {
+  margin-left: 265px;
+  width: 176px;
+  height: 27px;
+  font-family: sole;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #79ADDC;
+}
+.about .clients .john {
+  width: 722px;
+  height: 150px;
+  background-color: beige;
+  margin-top: 37px;
+  display: flex;
+}
+.about .clients .john .image2 {
+  background-image: url(../images/man.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+}
+.about .clients .john .quote2 {
+  width: 385px;
+  height: 102px;
+  font-family: gillI;
+  font-weight: bold;
+  font-style: italic;
+}
+.about .clients .john .quote2 .JW {
+  margin-left: 265px;
+  width: 176px;
+  height: 27px;
+  font-family: sole;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #79ADDC;
 }
 
 /*# sourceMappingURL=styles.css.map */
