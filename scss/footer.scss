@@ -1,6 +1,6 @@
 footer{
-    .end{
     width: 100%;
+    .end{
     background-color: #79ADDC;
     height: 100px;
     left: 10px;
@@ -31,15 +31,16 @@ footer{
             }
     .icons {
         font-size: 20px;
-        position:absolute;
+        position:relative;
         display: flex;
-        height: 30px;
-        margin-left: 400px;
+        height: 100px;
+        margin-left: 800px;
+        
         
             .fb{
                 height: 22.46px;
                 width: 22.46px;
-                margin-left: 750px;
+                margin-left: 10px;
                 border: none;
                 margin-top: 47px;
                 color: white;
@@ -66,26 +67,92 @@ footer{
     }
 }
 
-
+@media all and (max-width:1200px){
+    
+        footer {
+            width: 100%;
+            .end {
+                .logo {
+                    margin-left: 20px; 
+                }
+    
+                .copywright {
+                    
+                    left: 270px;
+                    
+                }
+    
+                .icons {
+                    position: absolute;
+                    margin-left: 700px;
+                    
+                    .fb {
+                         
+                    }
+                    .Tw{
+                        
+                    }
+    
+                    .In{
+                         
+                    }
+                    
+                }
+            }
+        }
+    }
 
 
 @media all and (max-width: 920px) {
     footer {
-        max-width: 100%;
+        width: 100%;
         .end {
             .logo {
                 margin-left: 20px; 
             }
 
             .copywright {
-                position:absolute;
-                left: 270px;
+                
                 
             }
 
             .icons {
+                right:20px;
+                
                 .fb {
-                    margin-left: 500px; 
+                     
+                }
+                .Tw{
+                    
+                }
+
+                .In{
+                     
+                }
+                
+            }
+        }
+    }
+}
+
+@media all and (max-width: 815px) {
+    footer {
+    width: 100%;
+        .end {
+            .logo {
+                
+            }
+
+            .copywright {
+
+                
+                
+            }
+
+            .icons {
+               right: 20px;
+                .fb {
+                
                 }
                 .Tw{
                      
@@ -102,7 +169,8 @@ footer{
 
 @media all and (max-width: 720px) {
     footer {
-    max-width: 100%;
+    width: 100%;
+    
         .end {
             .logo {
                 margin-left: 50px; 
@@ -116,9 +184,9 @@ footer{
             }
 
             .icons {
-                display: flex;
+                
                 .fb {
-                margin-left: 400px; 
+                 
                 }
                 .Tw{
                      

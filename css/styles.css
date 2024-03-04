@@ -600,8 +600,10 @@ hr {
     margin-left: 80px;
   }
 }
-footer .end {
+footer {
   width: 100%;
+}
+footer .end {
   background-color: #79ADDC;
   height: 100px;
   left: 10px;
@@ -632,15 +634,15 @@ footer .end .copywright {
 }
 footer .end .icons {
   font-size: 20px;
-  position: absolute;
+  position: relative;
   display: flex;
-  height: 30px;
-  margin-left: 400px;
+  height: 100px;
+  margin-left: 800px;
 }
 footer .end .icons .fb {
   height: 22.46px;
   width: 22.46px;
-  margin-left: 750px;
+  margin-left: 10px;
   border: none;
   margin-top: 47px;
   color: white;
@@ -662,24 +664,43 @@ footer .end .icons .Tw {
   color: white;
 }
 
-@media all and (max-width: 920px) {
+@media all and (max-width: 1200px) {
   footer {
-    max-width: 100%;
+    width: 100%;
   }
   footer .end .logo {
     margin-left: 20px;
   }
   footer .end .copywright {
-    position: absolute;
     left: 270px;
   }
-  footer .end .icons .fb {
-    margin-left: 500px;
+  footer .end .icons {
+    position: absolute;
+    margin-left: 700px;
+  }
+}
+@media all and (max-width: 920px) {
+  footer {
+    width: 100%;
+  }
+  footer .end .logo {
+    margin-left: 20px;
+  }
+  footer .end .icons {
+    right: 20px;
+  }
+}
+@media all and (max-width: 815px) {
+  footer {
+    width: 100%;
+  }
+  footer .end .icons {
+    right: 20px;
   }
 }
 @media all and (max-width: 720px) {
   footer {
-    max-width: 100%;
+    width: 100%;
   }
   footer .end .logo {
     margin-left: 50px;
@@ -688,12 +709,6 @@ footer .end .icons .Tw {
     margin-right: 50px;
     width: 200px;
     margin-bottom: 10px;
-  }
-  footer .end .icons {
-    display: flex;
-  }
-  footer .end .icons .fb {
-    margin-left: 400px;
   }
 }
 .navb .logo {
@@ -817,6 +832,115 @@ footer .end .icons .Tw {
   font-style: normal;
   letter-spacing: 3px;
   color: #79ADDC;
+}
+
+@media all and (max-width: 1200px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 {
+    width: 90%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+}
+@media all and (max-width: 950px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 {
+    width: 70%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+}
+@media all and (max-width: 815px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 p {
+    width: 60%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+  .about .clients .repo-flex {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 730px) {
+  .navb .logo {
+    margin-left: 30px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .about {
+    margin-left: 50px;
+    min-height: 1200px;
+  }
+  .about .top-box {
+    width: 100%;
+  }
+  .about .top-box .text1 p {
+    width: 60%;
+  }
+  .about .bottom-box {
+    width: 100%;
+  }
+  .about .clients .miranda {
+    flex-direction: column;
+    width: 100%;
+  }
+  .about .clients .miranda .image1 {
+    position: absolute;
+  }
+  .about .clients .repo-flex {
+    flex-direction: column;
+  }
+  .about .clients .repo-flex .quote1 {
+    margin-top: 170px;
+  }
+  .about .john {
+    flex-direction: column;
+  }
+  .about .john .image2 {
+    position: absolute;
+    margin-top: 150px;
+  }
+  .about .john .quote2 {
+    margin-top: 320px;
+    padding-bottom: 200px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
